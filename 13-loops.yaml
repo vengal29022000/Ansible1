@@ -4,7 +4,7 @@
   - name: checking loops
     ansible.builtin.debug:
       msg: " hello {{item}}"
-    loops:
+    loop:
     - gowtham
     - raju
     - budda
